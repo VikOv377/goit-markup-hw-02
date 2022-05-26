@@ -303,7 +303,7 @@ footer {
 
 .our-projects-list > li {
     background-color: var(--white-text-color);
-    outline: 2px solid var(--color-of-portfolio-box);
+    outline: 1px solid var(--color-of-portfolio-box);
 }
 
 .button-all-projects {
