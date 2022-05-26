@@ -63,6 +63,7 @@ a {
     line-height: 1.19;
     color: var(--blue-color);
     text-decoration: none;
+    
     padding: 24px 1240px 25px 215px;
 }
 
@@ -137,16 +138,11 @@ a {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-text-color);
+    
     padding: 200px 452px 30px;
 }
 
 .button {
-    background-color: var(--blue-color);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 200px;
-    height: 65px;
     font-family: inherit;
     font-weight: 700;
     font-size: 14px;
@@ -156,6 +152,14 @@ a {
     text-align: center;
     letter-spacing: 0.06em;
     color: var(--white-text-color);
+
+    background-color: var(--blue-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    height: 65px;
+   
     padding: 10px 32px;
 }
 
@@ -257,12 +261,6 @@ footer {
 }
 
 .button-radio {
-    background-color: var(--color-our-team-section);
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    width: 128px;
-    height: 38px;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -272,6 +270,14 @@ footer {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--black-text-color);
+
+    background-color: var(--color-our-team-section);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 128px;
+    height: 38px;
+    
     padding: 6px 22px;
 }
 
@@ -295,13 +301,12 @@ footer {
     color: var(--main-text-color);
 }
 
-.our-projects-list > ul > li {
+.our-projects-list > li {
     background-color: var(--white-text-color);
-    border: var(--color-of-portfolio-box);
+    outline: 2px solid var(--color-of-portfolio-box);
 }
 
 .button-all-projects {
     width: 73px;
     height: 38px;
 }
-
