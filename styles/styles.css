@@ -13,13 +13,12 @@
     --color-of-portfolio-box: #EEEEEE;
 }
 
-.body-main {
+body {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     line-height: 1.71; 
     letter-spacing: 0.03em;
     color: var(--main-text-color);
-    background-color: var(--white-text-color);
 }
 
 .list {
@@ -29,14 +28,13 @@
 .link {
     text-decoration: none;
     color: inherit;
-    cursor: auto;
 }
 
 .white-text {
     color: var(--white-text-color);
 }
 
-.section-title {
+.section-title-h2 {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -44,16 +42,12 @@
     color: var(--black-text-color);
 }
 
-a {
-    text-decoration: none;
-    font-style: normal;
-    cursor: auto;
-}
-  
 /* Шапка сайта */
 
 .header {
-    background-color: var(--white-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .link-logo {
@@ -71,13 +65,6 @@ a {
     color: var(--black-text-color);
 }
 
-.header-nav .link {
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--black-text-color);
-}
-
 .header-nav .link:hover,
 .header-nav .link:focus {
     color: var(--color-hover);
@@ -87,41 +74,13 @@ a {
     color: var(--color-hover);
 }
 
-.header-nav-list-item-1 {
-    padding: 32px 1098px 32px 453px;
-}
-
-.header-nav-list-item-2 {
-    padding: 32px 972px 32px 552px;
-}
-
-.header-nav-list-item-3 {
-    padding: 32px 853px 32px 679px;
-}
-
-.contacts a {
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+.header-nav {
     color: var(--black-text-color);
 }
 
 .contacts a:hover,
 .contacts a:focus {
     color: var(--color-hover);
-}
-
-#mail {
-    color: var(--blue-color);
-}
-
-.contacts-1 {
-    padding: 32px 387px 32px 1078px;
-
-}
-
-.contacts-2 {
-    padding: 32px 215px 32px 1263px;
 }
 
 /* Секция "Начальная" */
@@ -138,8 +97,6 @@ a {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--white-text-color);
-    
-    padding: 200px 452px 30px;
 }
 
 .button {
@@ -157,8 +114,6 @@ a {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 200px;
-    height: 65px;
    
     padding: 10px 32px;
 }
@@ -176,9 +131,10 @@ a {
     overflow: hidden;
 }
 
-.about-us-header-item {
+.about-us-header-item-h3 {
+    font-size: 14px;
     font-weight: 700;
-    line-height: 16px;
+    line-height: 1.14;
     text-transform: uppercase;
     color: var(--black-text-color);
 }
@@ -200,18 +156,13 @@ a {
 
 .our-team-name {
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
     color: var(--black-text-color);
 }
 
-.our-team-job {
-    font-weight: 400;
+.our-team-job, .our-team-name {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    color: var(--main-text-color);
 }
 
 .our-team-list > img {
@@ -221,7 +172,7 @@ a {
 
 /* Футер */
 
-footer {
+.footer {
     background-color: var(--hero-color);
 }
 
@@ -229,20 +180,19 @@ footer {
     color: var(--white-text-color);
 }
 
-.street-item {
-    font-weight: 400;
-    line-height: 1.71;
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+.address-link[target="_blank"] {
     color: var(--white-text-color);
 }
 
-.contacts {
-    font-weight: 400;
-    line-height: 1.71;
-    color: rgba(255, 255, 255, 0.6);
+.adress {
+    font-style: normal;
 }
 
-.address-list .link:hover,
-.address-list .link:focus {
+.address-link:hover,
+.address-link:focus {
     color: var(--color-hover);
 }
 
@@ -275,8 +225,6 @@ footer {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    width: 128px;
-    height: 38px;
     
     padding: 6px 22px;
 }
@@ -296,17 +244,11 @@ footer {
 }
 
 .project-category {
-    font-weight: 400;
+    font-size: 16px;
     line-height: 1.88;
-    color: var(--main-text-color);
 }
 
 .our-projects-list > li {
     background-color: var(--white-text-color);
     outline: 1px solid var(--color-of-portfolio-box);
-}
-
-.button-all-projects {
-    width: 73px;
-    height: 38px;
 }
