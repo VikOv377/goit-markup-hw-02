@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 /* PAGE "MAIN" */ 
 
   /* Общие правила */
@@ -19,10 +29,12 @@ body {
     line-height: 1.71; 
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+    margin: 0;
 }
 
 .list {
     list-style: none;
+    margin: 0;
 }
 
 .link {
@@ -40,6 +52,12 @@ body {
     line-height: 1.17;
     text-align: center;
     color: var(--black-text-color);
+}
+
+.container {
+    width: ;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Шапка сайта */
@@ -74,6 +92,7 @@ body {
 
 .header-nav {
     color: var(--black-text-color);
+    margin: 10px;
 }
 
 .contacts .link:hover,
@@ -100,9 +119,9 @@ body {
 .button {
     font-family: inherit;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.88;
-    display: inline;
+    
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
@@ -234,4 +253,9 @@ body {
 .our-projects-list > .our-projects-list-item {
     background-color: var(--white-text-color);
     outline: 1px solid var(--color-of-portfolio-box);
+}
+
+.project-category {
+    font-size: 16px;
+    line-height: 1.88;
 }
